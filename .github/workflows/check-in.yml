@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 3 * * *'
+    - cron: '0 0 * * *'
     - cron: '0 13 * * *'
     - cron: '39 13 * * *'
 
